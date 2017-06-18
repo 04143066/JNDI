@@ -1,0 +1,10 @@
+public class JNIDemo
+{
+	public native void sayHello();
+
+	public static void main(String argv[]) {
+		System.loadLibrary("helloWorld");
+		JNIDemo jniDemo = new JNIDemo();
+		jniDemo.sayHello();
+	}
+}

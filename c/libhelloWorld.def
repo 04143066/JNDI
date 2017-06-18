@@ -1,0 +1,3 @@
+; dlltool --base-file C:\Users\xx\AppData\Local\Temp\cca06732.base --output-exp helloWorld.exp --dllname helloWorld.dll --output-def libhelloWorld.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup --def C:\Users\xx\AppData\Local\Temp\cca06732.def --output-lib libhelloWorld.a
+EXPORTS
+	Java_JNIDemo_sayHello @ 1
